@@ -1,0 +1,14 @@
+D:\College\Application Development\Week 2\second.cs\bin\Debug\net9.0\second.cs.exe
+D:\College\Application Development\Week 2\second.cs\bin\Debug\net9.0\second.cs.deps.json
+D:\College\Application Development\Week 2\second.cs\bin\Debug\net9.0\second.cs.runtimeconfig.json
+D:\College\Application Development\Week 2\second.cs\bin\Debug\net9.0\second.cs.dll
+D:\College\Application Development\Week 2\second.cs\bin\Debug\net9.0\second.cs.pdb
+D:\College\Application Development\Week 2\second.cs\obj\Debug\net9.0\second.cs.GeneratedMSBuildEditorConfig.editorconfig
+D:\College\Application Development\Week 2\second.cs\obj\Debug\net9.0\second.cs.AssemblyInfoInputs.cache
+D:\College\Application Development\Week 2\second.cs\obj\Debug\net9.0\second.cs.AssemblyInfo.cs
+D:\College\Application Development\Week 2\second.cs\obj\Debug\net9.0\second.cs.csproj.CoreCompileInputs.cache
+D:\College\Application Development\Week 2\second.cs\obj\Debug\net9.0\second.cs.dll
+D:\College\Application Development\Week 2\second.cs\obj\Debug\net9.0\refint\second.cs.dll
+D:\College\Application Development\Week 2\second.cs\obj\Debug\net9.0\second.cs.pdb
+D:\College\Application Development\Week 2\second.cs\obj\Debug\net9.0\second.cs.genruntimeconfig.cache
+D:\College\Application Development\Week 2\second.cs\obj\Debug\net9.0\ref\second.cs.dll
