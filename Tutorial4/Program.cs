@@ -63,7 +63,10 @@ class Program
         int[] numbers = [1,2,33,4,5];
         DemoOut d1 = new DemoOut();
         d1.GetMinMax(numbers, out int min, out int max);
+        int sum = d1.Sum(numbers);
+        Console.WriteLine($"Sum: {sum}");
 
+        d1.OptionalParams("Kasle vaneko?");
 
     } 
 }
@@ -96,7 +99,6 @@ class Program
 //         return (a%2 == 0?true:false);
 //     }
 
-
 // }
 
 class DemoOut
@@ -119,4 +121,22 @@ class DemoOut
 
         Console.WriteLine($"Min: {min}, Max: {max}");
     }
+    public int Sum(params int[] numbers)
+    {
+        int sum=0;
+        foreach(int number in numbers)
+        {
+            sum += number;
+        }
+        return sum;
+    }
+
+    public void OptionalParams(String text = "Chaahidaina malaai maayaa saayaa")
+    {
+        Console.WriteLine(text??"Guras Naani");
+    }
 }
+
+
+        
+
