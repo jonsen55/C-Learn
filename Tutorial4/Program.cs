@@ -60,13 +60,19 @@ class Program
         // Console.WriteLine($"Division: {div}");
         // Console.WriteLine($"Is even: {c1.isEven(2)}");
 
-        int[] numbers = [1,2,33,4,5];
-        DemoOut d1 = new DemoOut();
-        d1.GetMinMax(numbers, out int min, out int max);
-        int sum = d1.Sum(numbers);
-        Console.WriteLine($"Sum: {sum}");
+        // int[] numbers = [1,2,33,4,5];
+        // DemoOut d1 = new DemoOut();
+        // d1.GetMinMax(numbers, out int min, out int max);
+        // int sum = d1.Sum(numbers);
+        // Console.WriteLine($"Sum: {sum}");
 
-        d1.OptionalParams("Kasle vaneko?");
+        // d1.OptionalParams("Kasle vaneko?");
+
+        Player p1 = new Player();
+        p1.playerName = "JONSEN";
+        Console.WriteLine($"Player name: {p1.playerName}");
+        Console.WriteLine($"Level: {p1.level}");
+        Console.WriteLine($"Health: {p1.health}");
 
     } 
 }
@@ -133,7 +139,21 @@ class DemoOut
 
     public void OptionalParams(String text = "Chaahidaina malaai maayaa saayaa")
     {
-        Console.WriteLine(text??"Guras Naani");
+        Console.WriteLine(text);
+    }
+}
+
+class Player
+{
+    public string playerName;
+    public int level;
+    public int health;
+
+    public Player()
+    {
+        playerName = "Unknown";
+        level = 1;
+        health = 100;
     }
 }
 
