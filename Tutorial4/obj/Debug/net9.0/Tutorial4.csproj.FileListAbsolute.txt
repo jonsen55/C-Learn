@@ -1,0 +1,14 @@
+D:\College\Application Development\Week 4\Tutorial4\bin\Debug\net9.0\Tutorial4.exe
+D:\College\Application Development\Week 4\Tutorial4\bin\Debug\net9.0\Tutorial4.deps.json
+D:\College\Application Development\Week 4\Tutorial4\bin\Debug\net9.0\Tutorial4.runtimeconfig.json
+D:\College\Application Development\Week 4\Tutorial4\bin\Debug\net9.0\Tutorial4.dll
+D:\College\Application Development\Week 4\Tutorial4\bin\Debug\net9.0\Tutorial4.pdb
+D:\College\Application Development\Week 4\Tutorial4\obj\Debug\net9.0\Tutorial4.GeneratedMSBuildEditorConfig.editorconfig
+D:\College\Application Development\Week 4\Tutorial4\obj\Debug\net9.0\Tutorial4.AssemblyInfoInputs.cache
+D:\College\Application Development\Week 4\Tutorial4\obj\Debug\net9.0\Tutorial4.AssemblyInfo.cs
+D:\College\Application Development\Week 4\Tutorial4\obj\Debug\net9.0\Tutorial4.csproj.CoreCompileInputs.cache
+D:\College\Application Development\Week 4\Tutorial4\obj\Debug\net9.0\Tutorial4.dll
+D:\College\Application Development\Week 4\Tutorial4\obj\Debug\net9.0\refint\Tutorial4.dll
+D:\College\Application Development\Week 4\Tutorial4\obj\Debug\net9.0\Tutorial4.pdb
+D:\College\Application Development\Week 4\Tutorial4\obj\Debug\net9.0\Tutorial4.genruntimeconfig.cache
+D:\College\Application Development\Week 4\Tutorial4\obj\Debug\net9.0\ref\Tutorial4.dll
