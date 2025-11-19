@@ -1,0 +1,15 @@
+D:\College\Application Development\Week 4\Workshop4\obj\Debug\net9.0\Workshop4.GeneratedMSBuildEditorConfig.editorconfig
+D:\College\Application Development\Week 4\Workshop4\obj\Debug\net9.0\Workshop4.AssemblyInfoInputs.cache
+D:\College\Application Development\Week 4\Workshop4\obj\Debug\net9.0\Workshop4.AssemblyInfo.cs
+D:\College\Application Development\Week 4\Workshop4\obj\Debug\net9.0\Workshop4.csproj.CoreCompileInputs.cache
+D:\College\Application Development\Week 4\Workshop4\obj\Debug\net9.0\Workshop4.sourcelink.json
+D:\College\Application Development\Week 4\Workshop4\bin\Debug\net9.0\Workshop4.exe
+D:\College\Application Development\Week 4\Workshop4\bin\Debug\net9.0\Workshop4.deps.json
+D:\College\Application Development\Week 4\Workshop4\bin\Debug\net9.0\Workshop4.runtimeconfig.json
+D:\College\Application Development\Week 4\Workshop4\bin\Debug\net9.0\Workshop4.dll
+D:\College\Application Development\Week 4\Workshop4\bin\Debug\net9.0\Workshop4.pdb
+D:\College\Application Development\Week 4\Workshop4\obj\Debug\net9.0\Workshop4.dll
+D:\College\Application Development\Week 4\Workshop4\obj\Debug\net9.0\refint\Workshop4.dll
+D:\College\Application Development\Week 4\Workshop4\obj\Debug\net9.0\Workshop4.pdb
+D:\College\Application Development\Week 4\Workshop4\obj\Debug\net9.0\Workshop4.genruntimeconfig.cache
+D:\College\Application Development\Week 4\Workshop4\obj\Debug\net9.0\ref\Workshop4.dll
