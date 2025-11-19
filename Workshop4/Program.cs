@@ -143,34 +143,61 @@
 /// <summary>
 /// Task 5
 /// </summary>
+// public enum Weekday
+// {
+//     Sunday, Monday, Tuesday, Wednesday, Thursday
+// }
+// public enum Weekend
+// {
+//     Saturday, Sunday
+// }
+// class Program
+// {
+//     public static void Main(string[] args)
+//     {
+//         Console.WriteLine("Input a day:");
+//         string input = Console.ReadLine();
+//         foreach(Weekend day in Weekend.GetValues(typeof(Weekend)))
+//         {
+//             if(day.ToString().ToLower() == input.ToLower())
+//             {
+//                 Console.WriteLine("It is: Weekend");
+//                 break;
+//             }
+//             else
+//             {
+//                 Console.WriteLine("It is: Weekday");
+//                 break;
+//             }
+//         }
+//     }
+// }
 
-public enum Weekday
-{
-    Sunday, Monday, Tuesday, Wednesday, Thursday
-}
-public enum Weekend
-{
-    Saturday, Sunday
-}
+
+/// <summary>
+/// Task 6
+/// </summary>
+
 class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Input a day:");
-        string input = Console.ReadLine();
-        foreach(Weekend day in Weekend.GetValues(typeof(Weekend)))
+        int marksInt, totalInt;
+        Console.WriteLine("Input marks:");
+        bool isMarksValid = int.TryParse(Console.ReadLine(), out marksInt);
+        Console.WriteLine("Input total:");
+        bool isTotalValid = int.TryParse(Console.ReadLine(), out totalInt);
+
+        if (!isMarksValid || !isTotalValid || totalInt == 0)
         {
-            if(day.ToString().ToLower() == input.ToLower())
-            {
-                Console.WriteLine("It is: Weekend");
-                break;
-            }
-            else
-            {
-                Console.WriteLine("It is: Weekday");
-                break;
-            }
+            Console.WriteLine("Invalid input or total cannot be zero.");
+            return;
         }
+        double marks = marksInt;
+        double total = totalInt;
+
+        double percentage = marks / total * 100;
+        Console.WriteLine($"Percentage: {percentage}%");
     }
 }
 
