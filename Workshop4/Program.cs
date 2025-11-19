@@ -68,40 +68,74 @@
 ///<summary>
 /// Task 3
 /// </summary>
+// class ParameterDemo
+// {
+//     public void Increase(ref int number)
+//     {
+//         number += 10;
+//     }
+//     public void GetFullName(out string fullname)
+//     {
+//         fullname = "Jonsen Gaire";
+//     }
+//     public int SumAll(params int[] numbers)
+//     {
+//         int sum = 0;
+//         foreach (int number in numbers)
+//         {
+//             sum += number;
+//         }
+//         return sum;
+//     }
+// }
 
-class ParameterDemo
+// class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         ParameterDemo parameterDemo = new ParameterDemo();
+//         int number = 10;
+//         parameterDemo.Increase(ref number);
+//         Console.WriteLine($"Increased by 10: {number}");
+//         string fullname;
+//         parameterDemo.GetFullName(out fullname);
+//         Console.WriteLine($"Fullname: {fullname}");
+//         int sum = parameterDemo.SumAll(1, 2, 3, 4, 5);
+//         Console.WriteLine($"Sum of all numbers: {sum}");
+//     }
+// }
+
+
+/// <summary>
+/// Task 4
+/// </summary>
+class Player
 {
-    public void Increase(ref int number)
+    public string playerName;
+    public int level;
+    public int health;
+    public Player()
     {
-        number += 10;
+        Console.WriteLine("Default constructor has been called");
     }
-    public void GetFullName(out string fullname)
+    public Player(string name, int level, int health)
     {
-        fullname = "Jonsen Gaire";
-    }
-    public int SumAll(params int[] numbers)
-    {
-        int sum = 0;
-        foreach (int number in numbers)
-        {
-            sum += number;
-        }
-        return sum;
+        this.playerName = name;
+        this.level = level;
+        this.health = health;
     }
 }
 
 class Program
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
-        ParameterDemo parameterDemo = new ParameterDemo();
-        int number = 10;
-        parameterDemo.Increase(ref number);
-        Console.WriteLine($"Increased by 10: {number}");
-        string fullname;
-        parameterDemo.GetFullName(out fullname);
-        Console.WriteLine($"Fullname: {fullname}");
-        int sum = parameterDemo.SumAll(1, 2, 3, 4, 5);
-        Console.WriteLine($"Sum of all numbers: {sum}");
+        Player player1 = new Player();
+        Player player2 = new Player("Jonsen", 1, 100);
+        Console.WriteLine("<---------------- Player 1 ---------------->");
+        Console.WriteLine($"Player 1: {player1.playerName}, Level: {player1.level}, Health: {player1.health}");
+        Console.WriteLine("<---------------- Player 2 ---------------->");
+        Console.WriteLine($"Player 2: {player2.playerName}, Level: {player2.level}, Health: {player2.health}");
     }
 }
+
