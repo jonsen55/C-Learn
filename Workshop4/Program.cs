@@ -109,33 +109,69 @@
 /// <summary>
 /// Task 4
 /// </summary>
-class Player
-{
-    public string playerName;
-    public int level;
-    public int health;
-    public Player()
-    {
-        Console.WriteLine("Default constructor has been called");
-    }
-    public Player(string name, int level, int health)
-    {
-        this.playerName = name;
-        this.level = level;
-        this.health = health;
-    }
-}
+// class Player
+// {
+//     public string playerName;
+//     public int level;
+//     public int health;
+//     public Player()
+//     {
+//         Console.WriteLine("Default constructor has been called");
+//     }
+//     public Player(string name, int level, int health)
+//     {
+//         this.playerName = name;
+//         this.level = level;
+//         this.health = health;
+//     }
+// }
 
+// class Program
+// {
+//     public static void Main(string[] args)
+//     {
+//         Player player1 = new Player();
+//         Player player2 = new Player("Jonsen", 1, 100);
+//         Console.WriteLine("<---------------- Player 1 ---------------->");
+//         Console.WriteLine($"Player 1: {player1.playerName}, Level: {player1.level}, Health: {player1.health}");
+//         Console.WriteLine("<---------------- Player 2 ---------------->");
+//         Console.WriteLine($"Player 2: {player2.playerName}, Level: {player2.level}, Health: {player2.health}");
+//     }
+// }
+
+
+/// <summary>
+/// Task 5
+/// </summary>
+
+public enum Weekday
+{
+    Sunday, Monday, Tuesday, Wednesday, Thursday
+}
+public enum Weekend
+{
+    Saturday, Sunday
+}
 class Program
 {
     public static void Main(string[] args)
     {
-        Player player1 = new Player();
-        Player player2 = new Player("Jonsen", 1, 100);
-        Console.WriteLine("<---------------- Player 1 ---------------->");
-        Console.WriteLine($"Player 1: {player1.playerName}, Level: {player1.level}, Health: {player1.health}");
-        Console.WriteLine("<---------------- Player 2 ---------------->");
-        Console.WriteLine($"Player 2: {player2.playerName}, Level: {player2.level}, Health: {player2.health}");
+        Console.WriteLine("Input a day:");
+        string input = Console.ReadLine();
+        foreach(Weekend day in Weekend.GetValues(typeof(Weekend)))
+        {
+            if(day.ToString().ToLower() == input.ToLower())
+            {
+                Console.WriteLine("It is: Weekend");
+                break;
+            }
+            else
+            {
+                Console.WriteLine("It is: Weekday");
+                break;
+            }
+        }
     }
 }
+
 
